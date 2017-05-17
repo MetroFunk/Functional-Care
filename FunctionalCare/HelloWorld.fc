@@ -1,0 +1,11 @@
+~
+(const xyz int (+ (+ 2 8) 4))
+
+(def (hola (n:int , b:int) int) (+ n (if (< 2 3) xyz (+ 5 7))))
+
+(const miPar parInt (crearParInt 2 4))
+~
+
+(def (mundo (x:int , y:int) int) (+ (* x 8) (- 7 y)))
+
+(main () (mundo 4 (+ 3 2)))
